@@ -1,0 +1,262 @@
+*{
+    font-family: Arial, monospace;
+    margin:0;
+}
+
+.navbar{
+    height:60px;
+    color:white;
+    background-color: #0f1111;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+.navlogo{
+    height:50px;
+    width:113px;
+    background-image: url("Amazon-Logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*box2*/
+.deliver{
+    height:50px;
+}
+.deliver p{
+    margin-top:2px;
+}
+.country{
+    display:flex;
+}
+.iconfirst{
+    color:#cccccc;
+    font-size:0.85rem;
+    margin-left:14px;
+    padding-top:5px;
+}
+.iconsec{
+    font-weight:700;
+    margin-left:2px;
+}
+
+/*box3*/
+.navsearch{
+    display:flex;
+    width:640px;
+    height: 40px;
+    /*background-color: #f5ab07;*/
+    align-items: center;
+}
+.hei{
+    height:40px;
+    width:45px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.searchlens{
+    width:45px;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5ab07;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    font-size:20px;
+}
+
+
+
+.navsearch:hover{
+    border:2px solid orange;
+
+}
+
+/*box4*/
+
+.signin{
+    height:40px;
+    padding-top:10px;
+}
+.sifirst{
+    font-size:0.85rem;
+}
+
+
+/*box6
+*/
+
+.cart i{
+    font-size:26px;
+}
+
+/*panel*/
+
+.borderp:hover{
+    border:2px solid white;
+}
+.pannel{
+    height:40px;
+    background-color:#232f3e;
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.all{
+    width:50px;
+    height:10px;
+    display:flex;
+    align-items: center;
+    padding:10px;
+}
+.all a{
+    margin-left:5px;
+    font-size:0.9rem;
+}
+.options {
+    width: 95%;
+    height: 40px;
+    margin-top: 20px;
+}
+.options a{
+    margin-right:20px;
+    font-size:0.9rem;
+    padding:10px;
+}
+
+/*hero section*/
+.pic{
+    height:300px;
+    background-image: url("herosec_pic.jpg");
+    background-size: cover;
+}
+
+.direction{
+    height:40px;
+    width:1220px;
+    background-color:white;
+    text-align:center;
+    position:relative;
+    left:25px;
+    top:240px;
+
+}
+.direction p{
+    position:relative;
+    top:10px;
+}
+span{
+    color: #007185;
+}
+
+/*boxes*/
+.boxes{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height:970px;
+    background-color: #e7e7e4;
+}
+.box{
+    width:280px;
+    height:395px;
+    /*border:2px solid black;*/
+    padding:30px;
+    background-color: white;
+    margin-top:30px;
+}
+.box p{
+    font-size:21px;
+    font-weight: bold;
+
+}
+.box a{
+    font-size:0.85rem;
+    color:#007185;
+}
+.pic1{
+    width:260px;
+    height:320px;
+    padding-left:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.panel1{
+    height:50px;
+    background-color: #232f3e;
+    color:white;
+    font-size:0.9rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*panel2*/
+.panel2{
+    height:450px;
+    background-color: #13232d;
+    color:white;
+    display:flex;
+}
+.panel2 ul{
+    list-style-type: none;
+    position: relative;
+    left:-40px;
+    font-size:0.9rem;
+}
+.list p{
+    font-weight:700;
+    margin-bottom:15px;
+    margin-right:130px;
+}
+.list{
+    position:relative;
+    top:50px;
+    left:150px;
+}
+.list li{
+    margin-bottom:15px;
+}
+
+/*panel3*/
+.panel3{
+    height:100px;
+    background-color:#13232d;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.panellogo{
+    width:200px;
+    height:50px;
+    background-image: url("Amazon-Logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*text-align: center;*/
+
+}
+
+/*panel4*/
+.panel4{
+    height:80px;
+    background-color:black;
+    color:white;
+}
+.notice{
+    text-align: center;
+    padding-top:10px;
+}
+.notice a{
+    padding-right:20px;
+}
+.copyright{
+    text-align:center;
+    margin:5px;
+}
